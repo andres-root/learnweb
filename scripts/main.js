@@ -1,0 +1,1 @@
+"use strict";$("header svg").click(function(){$("header ul").toggleClass("opened")}),$(".button.quote").click(function(){$(".modal").fadeIn()}),$(".modal .header > a").click(function(e){e.preventDefault(),$(".modal").fadeOut()});
